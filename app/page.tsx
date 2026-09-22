@@ -85,6 +85,15 @@ const socials = [
     description: 'រោងចក្រប្រេងកន្ទក់ ខេត្តបាត់ដំបង (កម្ពុជា)',
     href: 'https://youtube.com/channel/UCUY4ZTOOpiCYDM6yrQwJFRg',
   },
+  {
+    name: 'ក្រុមហ៊ុន​ ប្រេង​កន្ទក់​សុខៈ​ អភីអយូ',
+    platform: 'telegram',
+    mark: '/images/sokhak-telegram.png',
+    handle: 'ក្រុមហ៊ុន​ ប្រេង​កន្ទក់​សុខៈ​ អភីអយូ',
+    description:
+      'ក្រុមហ៊ុន អភីអយូ ផន សប ឯ.ក ខេត្តបាត់ដំបង (កម្ពុជា)',
+    href: 'https://t.me/SokhakOilCambodia',
+  },
 
   {
     name: 'RPRU Pawn Shop Co.,Ltd',
@@ -105,6 +114,7 @@ const socials = [
       'ក្រុមហ៊ុន អភីអយូ ផន សប ឯ.ក ខេត្តបាត់ដំបង (កម្ពុជា)',
     href: 'https://www.tiktok.com/@rpru_pawn_shop',
   },
+
 ]
 
 /*
@@ -118,6 +128,7 @@ const platformIcons = {
   tiktok: '/icons/tiktok.svg',
   instagram: '/icons/instagram.svg',
   youtube: '/icons/youtube.svg',
+  telegram: '/icons/telegram.svg',
 }
 
 
