@@ -240,7 +240,7 @@ export default function Page() {
                 className="mt-2 text-2xl font-semibold tracking-tight text-slate-900"
               >
                 {/* Choose your platform */}
-                សូមជ្រើសរើសបណ្តាញសង្គមខាងក្រោម
+                សូមជ្រើសរើសបណ្តាញសង្គម
               </h2>
             </div>
           </div>
