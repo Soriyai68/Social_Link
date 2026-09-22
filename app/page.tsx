@@ -5,12 +5,17 @@ import {
 } from 'lucide-react'
 
 const socials = [
-  // { name: 'TikTok', mark: 'TT', handle: '@yourhandle', description: 'Short ideas, big energy.', className: 'bg-[#111827] text-white', href: 'https://tiktok.com' },
-  // { name: 'Instagram', mark: 'IG', handle: '@yourhandle', description: 'Visual notes & daily life.', className: 'bg-gradient-to-br from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white', href: 'https://instagram.com' },
   { name: 'ហាងលក់ម៉ូតូ RPRU', mark: 'f', handle: 'ហាងលក់ម៉ូតូ RPRU', description: 'បង់រំលស់សុទ្ធ ទិញដាច់ វ៉ៃដូរ ទំនុកចិត្ត១០០%', className: 'bg-[#1877f2] text-white', href: 'https://www.facebook.com/profile.php?id=61571429474635' },
   { name: 'ហាងលក់ម៉ូតូ អភីអយូ', mark: 'f', handle: 'ហាងលក់ម៉ូតូ អភីអយូ', description: 'បង់រំលស់សុទ្ធ ទិញដាច់ វ៉ៃដូរ ទំនុកចិត្ត១០០%', className: 'bg-[#1877f2] text-white', href: 'https://www.facebook.com/profile.php?id=61590567216678' },
   { name: 'RPRU លក់ម៉ូតូគ្រប់ប្រភេទ', mark: 'f', handle: 'RPRU លក់ម៉ូតូគ្រប់ប្រភេទ', description: 'បង់រំលស់សុទ្ធ ទិញដាច់ វ៉ៃដូរ ទំនុកចិត្ត១០០%', className: 'bg-[#1877f2] text-white', href: 'https://www.facebook.com/profile.php?id=61594326855111' },
-  // { name: 'YouTube', mark: 'YT', handle: 'Your Channel', description: 'Watch, learn, and explore.', className: 'bg-[#ff0033] text-white', href: 'https://youtube.com' },
+  { name: 'ប្រេង កន្ទក់ សុខៈ អភីអយូ ឯ ក-Preng Kantouk Sokhak RPRU Co, Ltd ', mark: 'f', handle: 'ប្រេង កន្ទក់ សុខៈ អភីអយូ ឯ ក-Preng Kantouk Sokhak RPRU Co, Ltd ', description: 'រោងចក្រប្រេងកន្ទក់ ខេត្តបាត់ដំបង (កម្ពុជា)', className: 'bg-[#1877f2] text-white', href: 'https://www.facebook.com/profile.php?id=61557318112205' },
+  { name: 'ប្រេងកន្ទក់សុខៈ អភីអយូ', mark: 'f', handle: 'ប្រេងកន្ទក់សុខៈ អភីអយូ', description: 'រោងចក្រប្រេងកន្ទក់ ខេត្តបាត់ដំបង (កម្ពុជា)', className: 'bg-[#1877f2] text-white', href: 'https://www.facebook.com/profile.php?id=61590380654532' },
+  { name: 'Sokhak Rice Bran Oil', mark: 'f', handle: 'Sokhak Rice Bran Oil', description: 'រោងចក្រប្រេងកន្ទក់ ខេត្តបាត់ដំបង (កម្ពុជា)', className: 'bg-[#1877f2] text-white', href: 'https://www.facebook.com/profile.php?id=61590593855380' },
+  { name: 'ប្រេងកន្ទក់សុខៈ អភីអយូ ឯ.ក', mark: 'TT', handle: 'ប្រេងកន្ទក់សុខៈ អភីអយូ ឯ.ក', description: 'រោងចក្រប្រេងកន្ទក់ ខេត្តបាត់ដំបង (កម្ពុជា)', className: 'bg-[#111827] text-white', href: 'https://www.tiktok.com/@prengkanthuksokhak?is_from_webapp=1&sender_device=pc' },
+  { name: 'sokhakoilcambodia', mark: 'IG', handle: 'sokhakoilcambodia', description: 'រោងចក្រប្រេងកន្ទក់ ខេត្តបាត់ដំបង (កម្ពុជា)', className: 'bg-gradient-to-br from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white', href: 'https://www.instagram.com/sokhakoilcambodia/?hl=en' },
+  { name: 'ប្រេងកន្ទក់សុខៈអភីអយូ Official', mark: 'YT', handle: 'ប្រេងកន្ទក់សុខៈអភីអយូ Official', description: 'រោងចក្រប្រេងកន្ទក់ ខេត្តបាត់ដំបង (កម្ពុជា)', className: 'bg-[#ff0033] text-white', href: 'https://youtube.com/channel/UCUY4ZTOOpiCYDM6yrQwJFRg?si=KmqXO_3op-3cZbJT' },
+  { name: 'RPRU Pawn Shop Co.,Ltd', mark: 'f', handle: 'RPRU Pawn Shop Co.,Ltd', description: 'ក្រុមហ៊ុន អភីអយូ ផន​ សប ឯ.ក ខេត្តបាត់ដំបង (កម្ពុជា)', className: 'bg-[#1877f2] text-white', href: 'https://www.facebook.com/profile.php?id=61586799414222' },
+  { name: 'RPRU Pawn Shop Co.,Ltd', mark: 'TT', handle: 'RPRU Pawn Shop Co.,Ltd', description: 'ក្រុមហ៊ុន អភីអយូ ផន​ សប ឯ.ក ខេត្តបាត់ដំបង (កម្ពុជា)', className: 'bg-[#111827] text-white', href: 'https://www.tiktok.com/@rpru_pawn_shop?is_from_webapp=1&sender_device=pc' },
   // { name: 'LinkedIn', mark: 'in', handle: 'Your Name', description: 'Work, ideas & progress.', className: 'bg-[#0a66c2] text-white', href: 'https://linkedin.com' },
   // { name: 'X / Twitter', mark: 'X', handle: '@yourhandle', description: 'Thoughts in real time.', className: 'bg-[#111827] text-white', href: 'https://x.com' },
 ]
