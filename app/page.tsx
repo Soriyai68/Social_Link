@@ -152,9 +152,18 @@ export default function Page() {
             className="flex items-center gap-3"
             aria-label="Go to top"
           >
-            <span className="grid size-10 place-items-center rounded-2xl bg-white text-sm font-bold text-black shadow-lg shadow-slate-900/10">
+            {/* <span className="grid size-10 place-items-center rounded-2xl bg-white text-sm font-bold text-black shadow-lg shadow-slate-900/10">
               RPRU
-            </span>
+            </span> */}
+
+            <span className="grid size-10 place-items-center rounded-2xl shadow-lg shadow-slate-900/10">
+           <img
+              src="/rpru-pawn.png"
+              alt="RPRU Logo"
+              // className="size-6 rounded-2xl object-cover"
+            />
+          </span>
+            
 
             <span className="text-sm font-semibold tracking-tight">
               RPRU Social Link

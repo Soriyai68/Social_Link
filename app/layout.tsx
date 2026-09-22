@@ -5,7 +5,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'RPRU Social Link',
   description: 'Connect with RPRU across TikTok, Instagram, Facebook, YouTube, LinkedIn, and more.',
-  generator: 'v0.app',
+  // generator: 'v0.app',
   icons: {
     icon: [
       {
