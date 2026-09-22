@@ -91,7 +91,7 @@ const socials = [
     mark: '/images/sokhak-telegram.png',
     handle: 'ក្រុមហ៊ុន​ ប្រេង​កន្ទក់​សុខៈ​ អភីអយូ',
     description:
-      'ក្រុមហ៊ុន អភីអយូ ផន សប ឯ.ក ខេត្តបាត់ដំបង (កម្ពុជា)',
+      'រោងចក្រប្រេងកន្ទក់ ខេត្តបាត់ដំបង (កម្ពុជា)',
     href: 'https://t.me/SokhakOilCambodia',
   },
 
