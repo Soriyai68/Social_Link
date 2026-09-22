@@ -202,16 +202,16 @@ export default function Page() {
           <div className="mt-8 flex items-center gap-3 text-sm text-slate-500">
             <div className="flex -space-x-2">
               <span className="grid size-8 place-items-center rounded-full border-2 border-[#f7fbfa]font-bold text-white">
-                <image src="/icons/facebook.svg" alt="Facebook" className="size-4 object-contain" />
+                <image src="/icons/facebook.svg" alt="Facebook" className="size-4 " />
               </span>
 
               <span className="grid size-8 place-items-center rounded-full border-2 border-[#f7fbfa] text-[10px] font-bold text-white">
-                <image src="/icons/instagram.svg" alt="Instagram" className="size-4 object-contain" />
+                <image src="/icons/instagram.svg" alt="Instagram" className="size-4 " />
 
               </span>
 
               <span className="grid size-8 place-items-center rounded-full border-2 border-[#f7fbfa] text-[10px] font-bold text-white">
-                <image src="/icons/youtube.svg" alt="YouTube" className="size-4 object-contain" />
+                <image src="/icons/youtube.svg" alt="YouTube" className="size-4 " />
               </span>
             </div>
 
