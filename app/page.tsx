@@ -174,81 +174,81 @@ export default function Page() {
           </a>
         </header>
 
-       <section
-  id="hero"
-  className="mx-auto flex w-full max-w-3xl flex-col items-center pb-14 pt-20 text-center sm:pt-28"
->
-  {/* Badge */}
-  <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-white/70 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-emerald-700 shadow-sm backdrop-blur">
-    <span className="size-2 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.6)]" />
-    Let's connect
-  </div>
+        <section
+          id="hero"
+          className="mx-auto flex w-full max-w-3xl flex-col items-center pb-14 pt-20 text-center sm:pt-28"
+        >
+          {/* Badge */}
+          <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-white/70 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-emerald-700 shadow-sm backdrop-blur">
+            <span className="size-2 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.6)]" />
+            Let's connect
+          </div>
 
-  {/* Title */}
-  <h1 className="max-w-2xl text-balance text-5xl font-semibold leading-[0.98] tracking-[-0.06em] text-slate-950 sm:text-7xl">
-    RPRU{" "}
-    <span className="bg-gradient-to-r from-emerald-500 to-sky-500 bg-clip-text text-transparent">
-      Pawn Shop
-    </span>
-  </h1>
+          {/* Title */}
+          <h1 className="max-w-2xl text-balance text-5xl font-semibold leading-[0.98] tracking-[-0.06em] text-slate-950 sm:text-7xl">
+            RPRU{" "}
+            <span className="bg-gradient-to-r from-emerald-500 to-sky-500 bg-clip-text text-transparent">
+              Pawn Shop
+            </span>
+          </h1>
 
-  {/* Description */}
-  <p className="mt-7 max-w-xl text-pretty text-base leading-7 text-slate-600 sm:text-lg">
-    ក្រុមហ៊ុន RPRU Pawn Shop ចុចលីងខាងក្រោមដើម្បី Like & Follow ❤️🙏
-  </p>
+          {/* Description */}
+          <p className="mt-7 max-w-xl text-pretty text-base leading-7 text-slate-600 sm:text-lg">
+            ក្រុមហ៊ុន RPRU Pawn Shop ចុចលីងខាងក្រោមដើម្បី Like & Follow ❤️🙏
+          </p>
 
-  {/* Social Platforms */}
-  <div className="mt-8 flex items-center gap-4">
-    <div className="flex items-center -space-x-2.5">
-      {/* Facebook */}
-      <a
-        href="#"
-        aria-label="Facebook"
-        className="group relative grid size-10 place-items-center rounded-full border-2 border-white bg-white shadow-[0_4px_14px_rgba(15,23,42,0.10)] transition-all duration-300 hover:z-10 hover:-translate-y-1 hover:scale-110 hover:shadow-lg"
-      >
-        <img
-          src="/icons/facebook.svg"
-          alt="Facebook"
-          className="size-[18px] transition-transform duration-300 group-hover:scale-110"
-        />
-      </a>
+          {/* Social Platforms */}
+          <div className="mt-8 flex items-center gap-4">
+            <div className="flex items-center -space-x-2.5">
+              {/* Facebook */}
+              <a
+                href="#"
+                aria-label="Facebook"
+                className="group relative grid size-10 place-items-center rounded-full border-2 border-white bg-white shadow-[0_4px_14px_rgba(15,23,42,0.10)] transition-all duration-300 hover:z-10 hover:-translate-y-1 hover:scale-110 hover:shadow-lg"
+              >
+                <img
+                  src="/icons/facebook.svg"
+                  alt="Facebook"
+                  className="size-[18px] transition-transform duration-300 group-hover:scale-110"
+                />
+              </a>
 
-      {/* Instagram */}
-      <a
-        href="#"
-        aria-label="Instagram"
-        className="group relative grid size-10 place-items-center rounded-full border-2 border-white bg-white shadow-[0_4px_14px_rgba(15,23,42,0.10)] transition-all duration-300 hover:z-10 hover:-translate-y-1 hover:scale-110 hover:shadow-lg"
-      >
-        <img
-          src="/icons/instagram.svg"
-          alt="Instagram"
-          className="size-[18px] transition-transform duration-300 group-hover:scale-110"
-        />
-      </a>
+              {/* Instagram */}
+              <a
+                href="#"
+                aria-label="Instagram"
+                className="group relative grid size-10 place-items-center rounded-full border-2 border-white bg-white shadow-[0_4px_14px_rgba(15,23,42,0.10)] transition-all duration-300 hover:z-10 hover:-translate-y-1 hover:scale-110 hover:shadow-lg"
+              >
+                <img
+                  src="/icons/instagram.svg"
+                  alt="Instagram"
+                  className="size-[18px] transition-transform duration-300 group-hover:scale-110"
+                />
+              </a>
 
-      {/* YouTube */}
-      <a
-        href="#"
-        aria-label="YouTube"
-        className="group relative grid size-10 place-items-center rounded-full border-2 border-white bg-white shadow-[0_4px_14px_rgba(15,23,42,0.10)] transition-all duration-300 hover:z-10 hover:-translate-y-1 hover:scale-110 hover:shadow-lg"
-      >
-        <img
-          src="/icons/youtube.svg"
-          alt="YouTube"
-          className="size-[18px] transition-transform duration-300 group-hover:scale-110"
-        />
-      </a>
-    </div>
+              {/* YouTube */}
+              <a
+                href="#"
+                aria-label="YouTube"
+                className="group relative grid size-10 place-items-center rounded-full border-2 border-white bg-white shadow-[0_4px_14px_rgba(15,23,42,0.10)] transition-all duration-300 hover:z-10 hover:-translate-y-1 hover:scale-110 hover:shadow-lg"
+              >
+                <img
+                  src="/icons/youtube.svg"
+                  alt="YouTube"
+                  className="size-[18px] transition-transform duration-300 group-hover:scale-110"
+                />
+              </a>
+            </div>
 
-    {/* Company Name */}
-    <div className="flex items-center gap-2 text-sm text-slate-500">
-      <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
-      <span className="font-medium">
-        RPRU Pawn Shop Co.,Ltd
-      </span>
-    </div>
-  </div>
-</section>
+            {/* Company Name */}
+            <div className="flex items-center gap-2 text-sm text-slate-500">
+              <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
+              <span className="font-medium">
+                RPRU Pawn Shop Co.,Ltd
+              </span>
+            </div>
+          </div>
+        </section>
 
         {/* =========================================================
             SOCIAL LINKS
