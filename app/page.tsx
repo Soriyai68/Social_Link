@@ -120,11 +120,6 @@ const platformIcons = {
   youtube: '/icons/youtube.svg',
 }
 
-/*
-|--------------------------------------------------------------------------
-| Platform Names
-|--------------------------------------------------------------------------
-*/
 
 const platformNames = {
   facebook: 'Facebook',
@@ -157,13 +152,13 @@ export default function Page() {
             </span> */}
 
             <span className="grid size-10 place-items-center rounded-2xl shadow-lg shadow-slate-900/10">
-           <img
-              src="/rpru-pawn.png"
-              alt="RPRU Logo"
+              <img
+                src="/rpru-pawn.png"
+                alt="RPRU Logo"
               // className="size-6 rounded-2xl object-cover"
-            />
-          </span>
-            
+              />
+            </span>
+
 
             <span className="text-sm font-semibold tracking-tight">
               RPRU Social Link
@@ -178,10 +173,6 @@ export default function Page() {
             RPRU Company
           </a>
         </header>
-
-        {/* =========================================================
-            HERO SECTION
-        ========================================================= */}
 
         <section
           id="hero"
@@ -210,20 +201,21 @@ export default function Page() {
           {/* Small platform indicators */}
           <div className="mt-8 flex items-center gap-3 text-sm text-slate-500">
             <div className="flex -space-x-2">
-              <span className="grid size-8 place-items-center rounded-full border-2 border-[#f7fbfa] bg-emerald-500 text-[10px] font-bold text-white">
-                IG
+              <span className="grid size-8 place-items-center rounded-full border-2 border-[#f7fbfa]font-bold text-white">
+                <image src="/icons/facebook.svg" alt="Facebook" className="size-4 object-contain" />
               </span>
 
-              <span className="grid size-8 place-items-center rounded-full border-2 border-[#f7fbfa] bg-sky-500 text-[10px] font-bold text-white">
-                TT
+              <span className="grid size-8 place-items-center rounded-full border-2 border-[#f7fbfa] text-[10px] font-bold text-white">
+                <image src="/icons/instagram.svg" alt="Instagram" className="size-4 object-contain" />
+
               </span>
 
-              <span className="grid size-8 place-items-center rounded-full border-2 border-[#f7fbfa] bg-slate-900 text-[10px] font-bold text-white">
-                YT
+              <span className="grid size-8 place-items-center rounded-full border-2 border-[#f7fbfa] text-[10px] font-bold text-white">
+                <image src="/icons/youtube.svg" alt="YouTube" className="size-4 object-contain" />
               </span>
             </div>
 
-            <span>RPRU Pawn Shop</span>
+            <span>RPRU Pawn Shop Co.,Ltd </span>
           </div>
         </section>
 
@@ -239,14 +231,16 @@ export default function Page() {
           <div className="mb-5 flex items-end justify-between">
             <div>
               <p className="text-xs font-bold uppercase tracking-[0.18em] text-emerald-600">
-                My spaces
+                {/* My spaces */}
+                បណ្តាញសង្គម
               </p>
 
               <h2
                 id="social-links-heading"
                 className="mt-2 text-2xl font-semibold tracking-tight text-slate-900"
               >
-                Choose your platform
+                {/* Choose your platform */}
+                សូមជ្រើសរើសបណ្តាញសង្គមខាងក្រោម
               </h2>
             </div>
           </div>
