@@ -32,6 +32,34 @@ const socials = [
     href: 'https://www.facebook.com/profile.php?id=61594326855111',
   },
 
+   {
+    name: 'ហាងលក់ម៉ូតូ RPRU',
+    platform: 'tiktok',
+    mark: '/images/rpru-all-moto.png',
+    handle: 'ហាងលក់ម៉ូតូ RPRU',
+    description: 'បង់រំលស់សុទ្ធ ទិញដាច់ វ៉ៃដូរ ទំនុកចិត្ត១០០%',
+    href: 'https://www.tiktok.com/@rpru_motorshop',
+  },
+
+    {
+    name: 'ហាងលក់ម៉ូតូ RPRU',
+    platform: 'telegram',
+    mark: '/images/rpru-all-moto.png',
+    handle: 'ហាងលក់ម៉ូតូ RPRU',
+    description: 'បង់រំលស់សុទ្ធ ទិញដាច់ វ៉ៃដូរ ទំនុកចិត្ត១០០%',
+    href: 'https://t.me/rpru_motorshop',
+  },
+
+      {
+    name: 'ហាងលក់ម៉ូតូ RPRU',
+    platform: 'instagram',
+    mark: '/images/rpru-all-moto.png',
+    handle: 'ហាងលក់ម៉ូតូ RPRU',
+    description: 'បង់រំលស់សុទ្ធ ទិញដាច់ វ៉ៃដូរ ទំនុកចិត្ត១០០%',
+    href: 'https://www.instagram.com/rpru_motorshop/',
+  },
+
+
   {
     name: 'ប្រេង កន្ទក់ សុខៈ អភីអយូ ឯ.ក',
     platform: 'facebook',
